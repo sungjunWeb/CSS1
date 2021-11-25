@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HolyGrail</title>
+    <style>
+      body{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .container{
+        display:flex;
+        flex-direction:column;
+        width:800px;
+        border:1px solid gray;
+      }
+      header{
+        border-bottom:1px solid gray;
+        padding-left:20px;
+      }
+      footer{
+        border-top:1px solid gray;
+        padding:20px;
+        text-align:center;
+      }
+      .content{
+        display:flex;
+      }
+      .content nav{
+        border-right:1px solid gray;
+      }
+      .content aside{
+        border-left:1px solid gray;
+      }
+      nav, aside{
+        flex-basis: 150px;
+      }
+      main{
+        padding:10px;
+      }
+      nav{
+        order:-1;
+      }
+
+
+      #gotomain{
+        background-color:tomato;
+        color:white;
+        position:fixed;
+        left:0;
+        bottom:0;
+        width:100%;
+        height:30px;
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>생활코딩</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li>html</li>
+            <li>CSS</li>
+            <li>javascript</li>
+          </ul>
+        </nav>
+        <main>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut purus rhoncus urna aliquam imperdiet sit amet sed tortor. Sed tempor eleifend tincidunt. Sed nisi elit, tempor quis turpis in, sollicitudin laoreet sapien. Suspendisse scelerisque, tellus quis varius volutpat, mauris nibh laoreet nunc, iaculis volutpat erat nulla vestibulum metus. Ut id dui metus. Integer consequat et eros id tincidunt. Aliquam sollicitudin iaculis nunc eget aliquam. Pellentesque at erat in velit porta condimentum a quis purus. Sed nec arcu consectetur velit pretium efficitur id nec erat. Maecenas id viverra tellus, eu cursus turpis. Mauris imperdiet blandit pharetra. Maecenas vehicula nec lacus ut tincidunt. Praesent at diam posuere, semper lectus at, semper felis. Aliquam mi diam, bibendum non vestibulum molestie, convallis id purus. Duis in quam elit.
+
+          Suspendisse eget turpis in sapien malesuada iaculis eleifend id purus. Etiam et dolor eu urna sodales condimentum vel et erat. Nam sit amet neque interdum, imperdiet neque et, rutrum dui. Etiam cursus tincidunt leo, egestas suscipit ipsum pretium sed. Maecenas ut neque quis ligula vehicula blandit. Phasellus eu dui aliquam, iaculis neque sed, lobortis risus. Nunc vel pretium lectus. Integer in augue at massa dapibus sodales.
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut purus rhoncus urna aliquam imperdiet sit amet sed tortor. Sed tempor eleifend tincidunt. Sed nisi elit, tempor quis turpis in, sollicitudin laoreet sapien. Suspendisse scelerisque, tellus quis varius volutpat, mauris nibh laoreet nunc, iaculis volutpat erat nulla vestibulum metus. Ut id dui metus. Integer consequat et eros id tincidunt. Aliquam sollicitudin iaculis nunc eget aliquam. Pellentesque at erat in velit porta condimentum a quis purus. Sed nec arcu consectetur velit pretium efficitur id nec erat. Maecenas id viverra tellus, eu cursus turpis. Mauris imperdiet blandit pharetra. Maecenas vehicula nec lacus ut tincidunt. Praesent at diam posuere, semper lectus at, semper felis. Aliquam mi diam, bibendum non vestibulum molestie, convallis id purus. Duis in quam elit.
+            Suspendisse eget turpis in sapien malesuada iaculis eleifend id purus. Etiam et dolor eu urna sodales condimentum vel et erat. Nam sit amet neque interdum, imperdiet neque et, rutrum dui. Etiam cursus tincidunt leo, egestas suscipit ipsum pretium sed. Maecenas ut neque quis ligula vehicula blandit. Phasellus eu dui aliquam, iaculis neque sed, lobortis risus. Nunc vel pretium lectus. Integer in augue at massa dapibus sodales.
+
+         </p>
+        </main>
+        <aside>
+          AD
+        </aside>
+      </section>
+      <footer>
+        <a href="https://opentutorials.org/course/1">홈페이지</a>
+      </footer>
+
+    </div>
+    <div id="gotomain"><a href="index.html">Goto Main</a></div>
+  </body>
+</html>
